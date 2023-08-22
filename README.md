@@ -3,11 +3,14 @@
 A simple Python app for [Docker's Python Language Guide](https://docs.docker.com/language/python).
 CLone the docker
 git clone https://github.com/docker/python-docker
+
 move venv to .venv
->python3 -m venv .venv  
+>python3 -m venv .venv
+
 Install pop requirements 
 >python3 -m pip install -r requirements.txt
-Run false 
+Run false
+
 >python3 -m flask run
 init docker
 > docker init
